@@ -123,7 +123,7 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "Join Channel",
+                "ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ",
                 url = client.invitelink)
         ]
     ]
@@ -189,7 +189,7 @@ async def send_text(client: Bot, message: Message):
                 pass
             total += 1
         
-        status = f"""<b><u>ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴍᴘʟᴇᴛᴇ</u>
+        status = f"""<b><u>ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ</u>
 
 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{total}</code>
 sᴜᴄᴄᴇssғᴜʟ: <code>{successful}</code>
