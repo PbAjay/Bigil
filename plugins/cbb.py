@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴄʀᴇᴀᴛᴏʀ : <a href='tg://user?id={OWNER_ID}'</a>\n○ ʟᴀɴɢᴜᴀɢᴇ : <code>ᴘʏᴛʜᴏɴ 3</code>\n○ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ {__version__}</a>\n○ sᴏᴜʀᴄᴇ : <a href='https://t.me/VadaThirnu'>Click here</a>\n○ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/MovieZHubTG'>ᴍᴏᴠɪᴇᴢʜᴜʙᴛɢ</a> \n○ ɢʀᴏᴜᴘ : <a href='https://t.me/MovieZHubGP'>ᴍᴏᴠɪᴇᴢʜᴜʙɢᴘ</a> ",
+            text = f"<b>○ ᴄʀᴇᴀᴛᴏʀ : <a href='tg://user?id={OWNER_ID}'</a>\n○ ʟᴀɴɢᴜᴀɢᴇ : <code>ᴘʏᴛʜᴏɴ 3</code>\n○ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ {__version__}</a>\n○ sᴏᴜʀᴄᴇ : <a href='https://t.me/VadaThirnu'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n○ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+09keQAMeEz02ZWU1'>ᴀᴀsʜɪʀᴠᴀᴅ ᴄɪɴᴇᴍᴀs</a> \n○ sᴜᴘᴘᴏʀᴛ : <a href='https://t.me/mlz_botz_support'>ᴍʟᴢ ʙᴏᴛᴢ</a> ",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
