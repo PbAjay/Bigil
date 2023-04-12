@@ -4,6 +4,7 @@ from pyrogram import __version__
 from bot import Bot
 from config import *
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
+from helper_func import get_messages
 
 @Bot.on_callback_query()
 async def cb_handler(client: Bot, query: CallbackQuery):
