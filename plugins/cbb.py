@@ -28,18 +28,3 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             await query.message.reply_to_message.delete()
         except:
             pass
-        reply_markup = InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
-                ]
-            ]
-        )
-    elif data == "start":
-        await query.message.back()
-        try:
-            await query.message.reply_to_message.back()
-        except:
-            pass
-        
