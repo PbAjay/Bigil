@@ -19,7 +19,7 @@
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "25808657"
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
@@ -31,7 +31,7 @@
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "b67d5f5280ebe39e1bf331f767b13fd8"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
